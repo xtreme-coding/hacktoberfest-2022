@@ -1,0 +1,5 @@
+s=input("Enter the word that you want to Reverse:")
+print(s)
+s=s.split()
+s=reversed(s)
+print(" ".join(s))
